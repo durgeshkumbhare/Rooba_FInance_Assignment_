@@ -42,7 +42,7 @@ const Hero = ({ events, setEvents }) => {
           disabled={!events}
           onClick={handleClick}
           style={!events ? { background: "gray" } : { background: "none" }}
-          className="text-xs pr-8 pl-4 rounded- rounded-2xl"
+          className="text-xs pr-5 pl-4 rounded- rounded-2xl"
         >
           Collections
         </button>
